@@ -16,6 +16,9 @@ public class FeetAndInchesToCentimeters {
             return -1;
         }
 
-        return calcFeedAndInchesToCentimeters(inches / 12, 0);
+        double feet = inches / 12;
+        double remainingFeet = (int) inches % 12;
+
+        return calcFeedAndInchesToCentimeters(feet, remainingFeet);
     }
 }
