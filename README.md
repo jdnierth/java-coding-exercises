@@ -1,2 +1,2 @@
-# java-coding-exercises
-Collection of Java coding exercises from various places
+#Learn Java
+This source code contains small Java coding exercises taken from various sources.
