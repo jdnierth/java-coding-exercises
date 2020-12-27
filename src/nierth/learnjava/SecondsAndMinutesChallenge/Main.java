@@ -11,5 +11,6 @@ public class Main {
         System.out.println(SecondsAndMinutesChallenge.getDuration(240));
         System.out.println(SecondsAndMinutesChallenge.getDuration(0));
         System.out.println(SecondsAndMinutesChallenge.getDuration(3600));
+        System.out.println(SecondsAndMinutesChallenge.getDuration(65, 9));
     }
 }
