@@ -2,7 +2,7 @@ package nierth.learnjava.FeetAndInchesToCentimeters;
 
 public class FeetAndInchesToCentimeters {
     public static double calcFeedAndInchesToCentimeters(double feet, double inches) {
-        if((feet < 0) || (inches < 0 || inches > 12)) {
+        if(feet < 0 || (inches < 0 || inches > 12)) {
             System.out.println("Invalid value");
             return -1;
         }
