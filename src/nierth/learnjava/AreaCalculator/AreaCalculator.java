@@ -1,8 +1,6 @@
 package nierth.learnjava.AreaCalculator;
 
 public class AreaCalculator {
-    private static final String INVALID_INPUT_MESSAGE = "Invalid value";
-
     public static double area(double radius) {
         if(radius < 0) {
             return -1;
