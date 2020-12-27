@@ -1,11 +1,12 @@
 package nierth.learnjava.SecondsAndMinutesChallenge;
 
 public class SecondsAndMinutesChallenge {
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
 
     public static String getDuration(long minutes, long seconds) {
 
         if(minutes < 0 || seconds < 0 || seconds > 59) {
-            return "Invalid value";
+            return INVALID_VALUE_MESSAGE;
         }
 
         long totalHours = minutes / 60;
@@ -23,7 +24,7 @@ public class SecondsAndMinutesChallenge {
 
     public static String getDuration(long seconds) {
         if(seconds < 0) {
-            return "Invalid value";
+            return INVALID_VALUE_MESSAGE;
         }
 
         long minutes = seconds / 60;
