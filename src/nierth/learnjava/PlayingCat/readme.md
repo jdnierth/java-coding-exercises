@@ -1,0 +1,13 @@
+# Playing Cat
+* The cats spend most of the day playing.
+* They play if the temperature is between 25 and 35 (inclusive).
+* Unless it is summer, then the upper limit is 45 (inclusive) instead of 35.
+* Write a method `isCatPlaying` that has 2 parameters
+* Method needs to return true, if the cat is playing otherwise return false.
+* 1st parameter: represents summer and is of type `boolean`, named `summer`
+* 2nd parameter: represents the temperature and is of type `int`, `named temperature`
+
+# Example
+* `isCatPlaying(true, 10)` should return `false` since temperature is not in reange 25 - 45
+* `isCatPlaying(false, 36)` should return `false` since temperature is not in range 25 - 35 (summer parameter is false)
+* `isCatPlaying(false, 35)` should return `true` since temperature is in range 25 - 35
