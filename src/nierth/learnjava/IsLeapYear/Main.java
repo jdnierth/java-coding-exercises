@@ -19,5 +19,12 @@ public class Main {
         System.out.println("1600 is a leap year: " + IsLeapYear.isLeapYear(1600));
         System.out.println("2000 is a leap year: " + IsLeapYear.isLeapYear(2000));
         System.out.println("2400: " + IsLeapYear.isLeapYear(2400));
+
+        System.out.println(IsLeapYear.getDaysInMonth(1, 2020));
+        System.out.println(IsLeapYear.getDaysInMonth(2, 2020));
+        System.out.println(IsLeapYear.getDaysInMonth(2, 2018));
+        System.out.println(IsLeapYear.getDaysInMonth(-1, 2020));
+        System.out.println(IsLeapYear.getDaysInMonth(1, -2020));
+        System.out.println(IsLeapYear.getDaysInMonth(8, 2020));
     }
 }
