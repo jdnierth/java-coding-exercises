@@ -11,6 +11,7 @@ public class SharedDigit {
         int bLastDigit = b % 10;
         int bFirstDigit = b / 10;
 
-        return (aFirstDigit == bLastDigit || aLastDigit == bLastDigit || aLastDigit == bFirstDigit);
+        return (aFirstDigit == bLastDigit || aLastDigit == bLastDigit ||
+                aLastDigit == bFirstDigit || aFirstDigit == bFirstDigit);
     }
 }
