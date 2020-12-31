@@ -19,7 +19,7 @@ public class InputCalculator {
                 sum += input;
                 count++;
             } else {
-                avg = (count != 0)  ? Math.round(sum / count) : avg;
+                avg = (count != 0)  ? Math.round((double) sum / count) : avg;
                 break;
             }
 
