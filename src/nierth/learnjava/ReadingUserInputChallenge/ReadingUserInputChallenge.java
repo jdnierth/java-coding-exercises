@@ -9,11 +9,7 @@ public class ReadingUserInputChallenge {
         int count = 0;
         int sum = 0;
 
-        while(true) {
-
-            if(count == 3) {
-                break;
-            }
+        while(count < 3) {
 
             System.out.println("Enter a number " + (count + 1) + ": ");
             boolean hasNextInt = scanner.hasNextInt();
@@ -24,6 +20,7 @@ public class ReadingUserInputChallenge {
             } else {
                 System.out.println("Invalid Number");
             }
+
             scanner.nextLine();
         }
 
