@@ -6,14 +6,12 @@ public class ReadingUserInputChallenge {
     public static void readUserInput() {
         Scanner scanner = new Scanner(System.in);
 
-
-
         int count = 0;
         int sum = 0;
 
         while(true) {
 
-            if(count == 10) {
+            if(count == 3) {
                 break;
             }
 
