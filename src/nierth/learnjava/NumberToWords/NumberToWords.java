@@ -25,7 +25,6 @@ public class NumberToWords {
 
         int reversedNum = reverse(number);
         int lastNumber;
-        String output = "";
 
         // Fill up with missing zeros after parseInt action
         int missingDigits = getDigitCount(number) - getDigitCount(reversedNum);
