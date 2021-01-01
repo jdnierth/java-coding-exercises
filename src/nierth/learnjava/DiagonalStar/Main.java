@@ -2,6 +2,9 @@ package nierth.learnjava.DiagonalStar;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("DiagonalStar.printSquareStar(2): ");
+        System.out.println(" ");
+        DiagonalStar.printSquareStar(2);
         System.out.println("DiagonalStar.printSquareStar(5): ");
         System.out.println(" ");
         DiagonalStar.printSquareStar(5);
