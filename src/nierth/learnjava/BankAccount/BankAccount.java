@@ -1,17 +1,31 @@
 package nierth.learnjava.BankAccount;
 
 public class BankAccount {
-    private int accountNumber;
+    private String accountNumber;
     private double balance;
     private String customerName;
     private String email;
-    private int phoneNumber;
+    private String phoneNumber;
 
-    public int getAccountNumber() {
+    public BankAccount() {
+        // Calling another constructor.
+        this("45666", 2.50, "Default name", "Default address", "default phone");
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(int accountNumber) {
+    public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
 
@@ -39,11 +53,11 @@ public class BankAccount {
         this.email = email;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
