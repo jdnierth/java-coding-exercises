@@ -1,0 +1,14 @@
+package nierth.learnjava.FirstSteps.BarkingDog;
+
+public class BarkingDog {
+
+    public static boolean shouldWakeUp(boolean barking, int hourOfDay) {
+        if(hourOfDay < 0) {
+            return false;
+        } else if((hourOfDay < 8 || hourOfDay > 22 && hourOfDay <= 23) && barking) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
