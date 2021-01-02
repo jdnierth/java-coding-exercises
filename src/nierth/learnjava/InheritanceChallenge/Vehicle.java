@@ -41,7 +41,7 @@ public class Vehicle {
         currentVelocity = velocity;
         currentDirection = direction;
 
-        System.out.println("Vehicle.move(): Moving at " + currentVelocity + " in direction " + currentVelocity);
+        System.out.println("Vehicle.move(): Moving at " + currentVelocity + " in direction " + currentDirection);
     }
 
     public void stop() {
