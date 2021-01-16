@@ -20,7 +20,7 @@ public class MinElementChallenge {
     }
 
     public static int findMin(int[] numbers) {
-        int min = 0;
+        int min = Integer.MAX_VALUE;
 
         if(numbers.length == 0) {
             return min;
