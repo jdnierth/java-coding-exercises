@@ -10,10 +10,10 @@ public class ReverseArrayChallengeImproved {
 
         for(int i = 0; i < halfLength; i++ ) {
             int temp = numbers[i];
-            numbers[i] = numbers[maxIndex - 1];
+            numbers[i] = numbers[maxIndex - i];
             numbers[maxIndex - i] = temp;
         }
 
-        System.out.println("Array = " + Arrays.toString(numbers) + "Reversed array = " + Arrays.toString(numbers));
+        System.out.println("Reversed array = " + Arrays.toString(numbers));
     }
 }
