@@ -12,6 +12,7 @@ public class MinElementChallenge {
         while(currentNumber < count) {
             System.out.println("Get next number " + currentNumber + ":");
             numbers[currentNumber] = (scanner.nextInt());
+            scanner.nextLine();
             currentNumber ++;
         }
 
